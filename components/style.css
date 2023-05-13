@@ -1,0 +1,102 @@
+
+*{padding: 0; margin: 0; box-sizing: border-box;}
+body{
+    overflow: hidden;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-family: 'Merriweather', serif; text-align: center;}
+h2{
+    font-family: 'Bitter', serif;
+ 
+}
+body {
+        overflow: auto;
+    }
+footer{
+      position:static;
+     }
+.carousel-item{
+    /* min-height: 300px; */
+    background-size: cover;
+    object-fit: contain; 
+    
+        display: block;
+        max-width: 100%;
+        /* line-height: 1; */
+        margin:auto;
+        width: fit-content; 
+        /* height: 68vh; */
+}
+
+ .wel{
+    position: relative;
+ }
+
+p{
+    font-family: 'Bitter', serif;
+}
+
+.book2{
+    float:right;
+}
+
+/* .card-img-top1{
+    width: 65%;
+    height:65%;
+    object-fit: contain;
+    padding-top: 10px;
+    padding-bottom: 10px;
+     margin-left: 55px; //
+    align-self: center;
+} */
+
+
+
+/* .card-img-bs{
+    height: 65%;
+    width: fit-content;
+    align-self: center;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+} */
+
+.card-img-top {
+    width: 65% !important;
+    height: 65% !important;
+    object-fit: contain;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* margin-left: 40px; */
+    align-self: center;
+}
+
+.card{
+    height: 400px;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+.card img{
+    transition:0.3s all;
+}
+ .card:hover img{
+    opacity:0.75;
+ }
+ 
+#newarrivals > .card{
+    height: 600px;
+    padding: 5px 10px 5px 10px;
+    margin-right:100px ;
+}
+
+#about{
+    font-family: 'Merriweather', serif; text-align: center;
+}
+
+ 
+      
